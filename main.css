@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Tenor+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 72%;
+    margin: auto;
+}
+
+/* ===============HEADER===================================== */
+.header-box {
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 3px 16px 0;
+    z-index: 10;
+}
+
+.main-navigation {
+    margin-left: 805px;
+}
+
+.main-navigation_item {
+    display: inline-block;
+}
+
+.main-navigation_item:nth-child(2) {
+    padding-left: 40px;
+}
+
+.main-navigation_item:nth-child(3) {
+    padding-left: 40px;
+}
+
+.main-navigation_item a {
+    width: 42px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.main-navigation_item a:hover {
+    color: #0e772f;
+}
+
+/* ===============BODY1===================================== */
+.body1 {
+    /* border: 1px solid purple; */
+    margin-top: 150px;
+    margin-bottom: 60px;
+    display: flex;
+}
+
+.left {
+    /* border: 1px solid black; */
+    display: flex;
+    float: left;
+}
+
+.left img {
+    width: 721px;
+    height: 474px;
+}
+
+.right {
+    width: 429px;
+    /* height: 325px; */
+    margin-left: 51px;
+    /* border: 1px solid black; */
+    display: inline;
+    float: right;
+}
+
+.body1-word {
+    width: 90px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.body1-h1 {
+    width: 429px;
+    color: #000;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 116.667% */
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.body1-text {
+    width: 419px;
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 28px;
+}
+
+.body1-word2 {
+    width: 102px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ===============BODY2===================================== */
+.body2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 66px;
+    border-bottom: 1px solid #cbc7c7;
+}
+
+.body2-box {
+    display: flex;
+    width: 386.656px;
+    padding: 25.5px 9.656px 49px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 19.234px;
+    transition: all 0.4s linear;
+}
+
+.body2-box:hover {
+    scale: 0.9;
+    cursor: pointer;
+}
+
+.body2-box img {
+    width: 377px;
+    height: 244px;
+}
+
+.body2-word {
+    width: 93px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.body2-h1 {
+    width: 347px;
+    color: #000;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    text-transform: uppercase;
+}
+
+.body2-text {
+    width: 419px;
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.body2-word2 {
+    width: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ===============BODY3===================================== */
+.body3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 90px;
+    margin-top: 90px;
+    border-bottom: 1px solid #cbc7c7;
+}
+
+.body3-head-p {
+    width: 100%;
+    height: 10px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* border: 1px solid #000; */
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.body3-box {
+    display: flex;
+    width: 290px;
+    padding: 0.031px 10px 48px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    transition: all 0.4s linear;
+    margin-top: 10px;
+}
+
+.body3-box:hover {
+    scale: 0.9;
+    cursor: pointer;
+}
+
+.body3-box img {
+    width: 275px;
+    height: 177px;
+}
+
+.body3-word {
+    width: 90px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.body3-h1 {
+    width: 276px;
+    color: #000;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    text-transform: uppercase;
+}
+
+.body3-text {
+    width: 419px;
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.body3-word2 {
+    width: 140px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.box3-btn {
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 54px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #fff;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 26px;
+    padding-right: 26px;
+    /* text */
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all .3s linear;
+}
+
+.box3-btn button:hover {
+    background: #000;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* ===============BODY4===================================== */
