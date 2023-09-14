@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-    width: 80%;
+    width: 72%;
     margin: auto;
 }
 
@@ -204,7 +204,6 @@ html {
 }
 
 .body2-word2 {
-    width: 140px;
     flex-shrink: 0;
     color: #000;
     font-family: "Libre Franklin", sans-serif;
@@ -297,7 +296,6 @@ html {
 }
 
 .body3-word2 {
-    width: 140px;
     flex-shrink: 0;
     color: #000;
     font-family: "Libre Franklin", sans-serif;
@@ -339,7 +337,7 @@ html {
     line-height: 12px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: all .3s linear;
+    transition: all 0.3s linear;
 }
 
 .box3-btn button:hover {
@@ -349,3 +347,288 @@ html {
 }
 
 /* ===============BODY4===================================== */
+
+.body4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 65px;
+    margin-top: 90px;
+}
+
+.body4-head-p {
+    width: 100%;
+    height: 10px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /* border: 1px solid #000; */
+    margin-left: 10px;
+    /* margin-bottom: 30px; */
+}
+
+.body4-box {
+    display: flex;
+    width: 590px;
+    padding: 24.969px 10px 49px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20.219px;
+    transition: all 0.4s linear;
+    margin-top: 10px;
+}
+
+.body4-box:hover {
+    scale: 0.9;
+    cursor: pointer;
+}
+
+.body4-box img {
+    width: 570px;
+    height: 367px;
+}
+
+.body4-word {
+    width: 90px;
+    color: #999;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.body4-h1 {
+    width: 568px;
+    color: #000;
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 120% */
+    text-transform: uppercase;
+}
+
+.body4-word2 {
+    flex-shrink: 0;
+    color: #000;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* ===============FOOTER===================================== */
+footer {
+    width: 100%;
+    /* height: 617px; */
+    flex-shrink: 0;
+    background: #141414;
+    padding-top: 90px;
+}
+
+.body5 {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 617px;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+.row1 {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    border-bottom: 1px solid #4d4d4d;
+    margin-bottom: 60px;
+    position: absolute;
+}
+
+.footer-p {
+    width: 275px;
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px; /* 120% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 17px;
+    margin-top: 10px;
+}
+
+.row2 {
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    height: 100px;
+    top: 165px;
+    /* height: 78px; */
+    flex-shrink: 0;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.row2-left {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 75%;
+    flex-wrap: wrap;
+}
+
+.row2-left .p1 {
+    width: 100%;
+    margin-bottom: 20px;
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.row2-left p {
+    color: #fff;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-right: 90px;
+    width: 133px;
+    margin-bottom: 15px;
+}
+
+.row2-right {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+    width: 25%;
+}
+
+.row2-right .p2 {
+    width: 100%;
+    /* margin-bottom: 20px; */
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.row2-right input {
+    width: 221px;
+    height: 48px;
+    flex-shrink: 0;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #666;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 24px;
+    padding-right: 23px;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+.row2-right input::placeholder {
+    color: #666;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.row2-right button {
+    width: 79px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #000;
+    color: #fff;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: none;
+    transition: all 0.3s linear;
+}
+
+.row2-right button:hover {
+    background: #fff;
+    color: #000;
+    border: 2px solid #000;
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.row3 {
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    /* height: 100px; */
+    top: 320px;
+    flex-shrink: 0;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+.row3 p {
+    color: #fff;
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+
+.row3 .title {
+    color: #666;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.row3-1 {
+    width: 87px;
+    flex-direction: column;
+    margin-right: 138px;
+}
+
+.row3-2 {
+    width: 106px;
+    flex-direction: column;
+    margin-right: 119px;
+}
+
+.row3-3 {
+    width: 177px;
+    flex-direction: column;
+}
