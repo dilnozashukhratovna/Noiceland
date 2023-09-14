@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-    width: 75%;
+    width: 80%;
     margin: auto;
     /* border: 2px solid yellowgreen; */
 }
@@ -34,8 +34,12 @@ html {
     z-index: 10;
 }
 
+.main-header_brand {
+    margin-left: 5%;
+}
+
 .main-navigation {
-    margin-left: 800px;
+    margin-left: 60%;
 }
 
 .main-navigation_item {
@@ -72,6 +76,7 @@ html {
     margin-top: 150px;
     margin-bottom: 60px;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .left {
@@ -88,10 +93,8 @@ html {
 .right {
     width: 429px;
     /* height: 325px; */
-    margin-left: 51px;
     /* border: 1px solid black; */
     display: inline;
-    float: right;
 }
 
 .body1-word {
@@ -147,7 +150,8 @@ html {
 .body2 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    /* gap: 3%; */
+    justify-content: space-evenly;
     padding-bottom: 66px;
     border-bottom: 1px solid #cbc7c7;
     /* border: 1px solid purple; */
@@ -222,7 +226,8 @@ html {
 .body3 {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    /* gap: 10px; */
+    justify-content: space-evenly;
     padding-bottom: 90px;
     margin-top: 90px;
     border-bottom: 1px solid #cbc7c7;
@@ -240,8 +245,10 @@ html {
     letter-spacing: 1px;
     text-transform: uppercase;
     /* border: 1px solid #000; */
-    margin-left: 10px;
+    margin-left: 4%;
     margin-bottom: 30px;
+    /* display: flex;
+    justify-content: flex-start; */
 }
 
 .body3-box {
@@ -354,9 +361,10 @@ html {
 .body4 {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    /* gap: 20px; */
     padding-bottom: 65px;
     margin-top: 90px;
+    justify-content: space-evenly;
 }
 
 .body4-head-p {
@@ -371,7 +379,7 @@ html {
     letter-spacing: 1px;
     text-transform: uppercase;
     /* border: 1px solid #000; */
-    margin-left: 10px;
+    margin-left: 5%;
     /* margin-bottom: 30px; */
 }
 
