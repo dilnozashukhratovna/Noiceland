@@ -11,7 +11,7 @@ html {
 }
 
 .container {
-    width: 84%;
+    width: 75%;
     margin: auto;
     /* border: 2px solid yellowgreen; */
 }
@@ -21,6 +21,7 @@ html {
     height: 90px;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .main-header {
@@ -34,7 +35,7 @@ html {
 }
 
 .main-navigation {
-    margin-left: 805px;
+    margin-left: 800px;
 }
 
 .main-navigation_item {
@@ -149,6 +150,7 @@ html {
     gap: 20px;
     padding-bottom: 66px;
     border-bottom: 1px solid #cbc7c7;
+    /* border: 1px solid purple; */
 }
 
 .body2-box {
