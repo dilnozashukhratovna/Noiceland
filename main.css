@@ -11,8 +11,9 @@ html {
 }
 
 .container {
-    width: 72%;
+    width: 84%;
     margin: auto;
+    /* border: 2px solid yellowgreen; */
 }
 
 /* ===============HEADER===================================== */
